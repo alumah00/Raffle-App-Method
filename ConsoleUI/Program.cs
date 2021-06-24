@@ -15,6 +15,7 @@ namespace ConsoleUI
             Console.WriteLine("Welcome to the Party!!");
             GetUserInfo();
             //MultiLineAnimation();
+            GetRaffleNumber(guests);
             PrintGuestsName();
             PrintWinner();
             Console.ReadLine();
